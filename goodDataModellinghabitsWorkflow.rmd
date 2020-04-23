@@ -1,0 +1,51 @@
+# Good data modelling habits workflow
+
+Data modelling and basic research makes a huge difference in business when done well. For the researcher, and their sanity if nothing else, it is useful to have a basic framework as a guide and a ready supply of templates for common tools and processes to minimise starting from scratch every time when you start answering a new business question.
+
+
+
+## Import data
+
+## Create backup of data
+
+```
+data1_backup <- data1_original
+```
+
+
+
+## Data review and cleaning
+
+### Data overview
+
+### Missing value review
+
+### Handling missing values
+
+### Transformations
+
+### Labelling and relabelling variables for readability
+
+### Subsetting data
+
+
+As an example this subsets the 'data' data frame by pulling out samples here where var equals 10.
+
+```
+dataSubset <- subset(
+    data,
+    `var1` == 10
+)
+```
+
+
+
+## Do stuff to data
+
+
+
+## Extract out data or statistics
+
+
+
+## Export data or report
