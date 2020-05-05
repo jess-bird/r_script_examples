@@ -17,7 +17,7 @@ packages = c(
     "knitlatex",
     "knitcitations",
     "rticles",
-    "rmakrdown",
+    "rmarkdown",
     "latexpdf",
     "data.table"
     )
@@ -26,7 +26,7 @@ packages = c(
 # If available, then load them for use
 # If unavailable, then install them from source repos
 
-package.check <- lappy(
+package.check <- lapply(
     packages, FUN = function(x) {
         if (!require(x, character.only = TRUE)) {
             install.packages(x, dependancies = TRUE)
