@@ -14,7 +14,7 @@ packages = c(
     "stringi",
     "tufterhandout",
     "knitr",
-    "knitlatex",
+    "knitLatex",
     "knitcitations",
     "rticles",
     "rmarkdown",
